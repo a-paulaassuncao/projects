@@ -1,0 +1,203 @@
+/* Inicio estilização Bootstrap */
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media screen and (min-width: 400px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+
+  .view-m {
+    width: 100%;
+  }
+
+  .col {
+    margin-left: 50px;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+  --bd-violet-bg: #712cf9;
+  --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+  --bs-btn-font-weight: 600;
+  --bs-btn-color: var(--bs-white);
+  --bs-btn-bg: var(--bd-violet-bg);
+  --bs-btn-border-color: var(--bd-violet-bg);
+  --bs-btn-hover-color: var(--bs-white);
+  --bs-btn-hover-bg: #6528e0;
+  --bs-btn-hover-border-color: #6528e0;
+  --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: #5a23c8;
+  --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+  z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+  display: block !important;
+}
+/* Fim da estilização Bootstrap */
+
+/* Inicio estilização index */
+h1 {
+  font-weight: 700;
+}
+
+h1 #span-1 {
+  color: #5a23c8;
+  font-weight: 700;
+}
+
+p {
+  margin: 0;
+}
+
+.card-text {
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+.card-text3 {
+  margin-bottom: 50px;
+}
+
+.btn a {
+  padding: 50px;
+  color: darkgray;
+  text-decoration: none !important;
+}
+
+.btn a:hover {
+  font-weight: 700;
+}
+
+.footer {
+  padding-top: 70px;
+  text-align: center;
+}
+/* Fim estilização index */
+
+/* Inicio estilização cards  */
+
+.col {
+  width: 320px;
+  height: 340px;
+
+  display: flex;  
+}
+
+.img-all {
+  width: 302px;
+  height: 170px;
+}
+/* Fim estilização cards  */
+
+/* Inicio estilização páginas */
+.album-all {
+  height: 700px;
+}
+
+.img-1a {
+  width: 50%;
+  border-radius: 5PX;
+}
+
+.card-text-1 { 
+  padding-bottom: 15px;
+}
+
+.btn-group-1 {
+  margin-top: 15px;
+}
+
+.list-1 {
+  top: -550px;
+  margin-right: 200px;
+
+  position: relative;
+  float: right;
+
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.list-1 li {
+  padding: 12px 0;
+}
+
+.footer-all {
+  padding-top: 70px;
+  text-align: center;
+}
+
+#about-1 {
+  padding: 0 640px 20px 0;
+  justify-content: justify;
+}
+/* Fim estilização páginas */
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #a0a0a0; /* Cor de fundo do trilho */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Cor do polegar */
+  border-radius: 4px; /* Borda arredondada do polegar */
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #f1f1f1; /* Cor de fundo da ponta */
+}
