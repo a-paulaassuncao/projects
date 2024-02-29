@@ -98,7 +98,13 @@ h1 #span-1 {
 
 p {
   margin: 0;
+  
 }
+#footer-p{
+  margin:0 auto;
+  width: 400px;
+}
+
 
 .card-text {
   padding-bottom: 30px;
@@ -111,11 +117,12 @@ p {
 
 .btn a {
   padding: 50px;
-  color: darkgray;
+  color: black;
   text-decoration: none !important;
 }
 
 .btn a:hover {
+  color: white;
   font-weight: 700;
 }
 
@@ -142,11 +149,11 @@ p {
 
 /* Inicio estilização páginas */
 .album-all {
-  height: 700px;
+  height: 725px;
 }
 
 .img-1a {
-  width: 50%;
+  width: 90%;
   border-radius: 5PX;
 }
 
@@ -158,15 +165,11 @@ p {
   margin-top: 15px;
 }
 
-.list-1 {
-  top: -550px;
-  margin-right: 200px;
-
-  position: relative;
-  float: right;
-
+.list-1 ul li{
+  margin-right: 50px;
   font-size: 20px;
   font-weight: 400;
+  display: inline-block;
 }
 
 .list-1 li {
@@ -179,7 +182,9 @@ p {
 }
 
 #about-1 {
-  padding: 0 640px 20px 0;
+  font-size: 18px;
+
+  padding: 45px 20px 20px 20px;
   justify-content: justify;
 }
 /* Fim estilização páginas */
