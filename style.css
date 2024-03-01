@@ -117,7 +117,7 @@ p {
 
 .btn a {
   padding: 50px;
-  color: black;
+  color: var(--bs-card-color);
   text-decoration: none !important;
 }
 
@@ -186,6 +186,10 @@ p {
 
   padding: 45px 20px 20px 20px;
   justify-content: justify;
+}
+
+.btn-cards {
+  margin: 0 0 0 40px;
 }
 /* Fim estilização páginas */
 
